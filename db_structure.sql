@@ -23,4 +23,10 @@ CREATE TABLE `tokens` (
 
 
 
+CREATE TABLE `news` (
+  `id` INT AUTO_INCREMENT PRIMARY KEY,
+  `heading` VARCHAR(25) NOT NULL UNIQUE,
+  `text` VARCHAR(255) NULL,
+  `imageLink` VARCHAR(255) NOT NULL
+);
 
